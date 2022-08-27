@@ -28,7 +28,7 @@ def audio_head(filepath: Path):
     head = audio[:HEAD*SECONDS]
 
     # 書き出す
-    head.export('./audio/exported.mp3', format='mp3')
+    head.export('./audio/exported.wav', format='wav')
 
     return
 
